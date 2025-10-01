@@ -6,7 +6,7 @@ SUDO=$(command -v sudo || true)
 
 LEVELDB_VERSION=1.23
 
-mkdir /opt/leveldb
+mkdir -p /opt/leveldb
 cd /opt/leveldb
 curl -sL leveldb.tar.gz https://codeload.github.com/google/leveldb/tar.gz/${LEVELDB_VERSION} | tar xzf -
 cd leveldb-*

@@ -1,0 +1,8 @@
+{
+  "name": "plyvel",
+  "version-string": "1.5.1",
+  "dependencies": [
+    "leveldb",
+    "snappy"
+  ]
+}
